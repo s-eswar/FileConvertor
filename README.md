@@ -32,7 +32,7 @@ To convert an Excel file into PDFs and CSVs grouped by a specific column:
 
 1. Run the `ExcelToPDFConverter` class:
    ```bash
-   python src/converters/excel_to_pdf_converter.py
+   python -m src.main excel_to_pdf "data.xlsx" --column_name "Category" --output_folder "pdfs" --sheet_name "Sheet1" --title "Excel to PDF Report"
    ```
 
 2. Provide the following parameters:
